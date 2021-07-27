@@ -11,7 +11,7 @@ import SvgDownloads from '../components/icons/Svg.Downloads';
 
 const Downloads = () => (
   <View style={gStyle.container}>
-    <Header bg={colors.headerBarBg} title="My Downloads" />
+    <Header bg={colors.red} title="My Downloads" />
 
     <View style={styles.containerIcon}>
       <SvgDownloads fill={colors.bgGrey} size={80} />
@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     color: colors.white,
     fontFamily: fonts.regular,
-    fontSize: 16,
+    fontSize: 25,
     marginBottom: 48,
     textAlign: 'center',
     width: 300
@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
   },
   buttonText: {
     color: colors.white,
-    fontSize: 16,
+    fontSize: 18,
     textAlign: 'center'
   }
 });

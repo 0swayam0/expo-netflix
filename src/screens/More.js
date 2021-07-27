@@ -62,7 +62,7 @@ const More = ({ navigation }) => (
         text="Sign Out"
       />
       <Text style={styles.versionText}>
-        {`Version: ${Constants.manifest.version}`}
+        {`Version : ${Constants.manifest.version}`}
       </Text>
     </ScrollView>
 
@@ -77,7 +77,7 @@ More.propTypes = {
 
 const styles = StyleSheet.create({
   versionText: {
-    color: colors.moreVersionText,
+    color: colors.red,
     fontFamily: fonts.regular,
     fontSize: 18,
     paddingHorizontal: 8,

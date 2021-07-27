@@ -4,6 +4,7 @@ export default {
   black40: 'rgba(0, 0, 0, 0.4)',
   black50: 'rgba(0, 0, 0, 0.5)',
   white: '#fff',
+  red: '#ff0000',
 
   // shared
   brandPrimary: '#d22f27',
@@ -39,5 +40,5 @@ export default {
 
   // cast connect modal
   castConnectBg: '#181818',
-  castConnectDeviceText: '#58b1e2'
+  castConnectDeviceText: '#58b1e2',
 };
